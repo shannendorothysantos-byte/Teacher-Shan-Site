@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn English with Teacher Shan – Personalized lessons for kids, teens, and adults. Book a lesson now!">
+
+  <!-- Open Graph for Social Sharing -->
+  <meta property="og:title" content="Learn English with Teacher Shan">
+  <meta property="og:description" content="Personalized English lessons for kids, teens, adults, and foreign learners. Book a fun trial class today!">
+  <meta property="og:image" content="234a6b35-1605-4790-9432-9f9deed9bb56.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yourwebsite.com">
+
+  <title>Learn English with Teacher Shan</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fffefc;
+      color: #222;
+      line-height: 1.6;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 20px;
+      background: linear-gradient(135deg, #ff8a00, #e52e71);
+      color: white;
+    }
+
+    header img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 4px solid #fff;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      loading: lazy;
+    }
+
+    header h1 { font-size: 3em; margin-bottom: 10px; }
+    header p { font-size: 1.3em; margin-bottom: 20px; }
+
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      background: white;
+      color: #e52e71;
+      border: 2px solid #fff;
+      padding: 14px 26px;
+      font-size: 1em;
+      border-radius: 12px;
+      cursor: pointer;
+      font-weight: bold;
+      text-decoration: none;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s, background 0.3s, color 0.3s;
+    }
+
+    .btn:hover {
+      background: #ffe9f3;
+      color: #ff0080;
+      transform: translateY(-3px);
+    }
+
+    section {
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 20px;
+    }
+
+    h2 { color: #e52e71; margin-bottom: 15px; font-size: 1.8em; text-align: center; }
+    h3 { color: #e52e71; font-size: 1.4em; margin-top: 20px; }
+
+    .services, .why-choose, .testimonials { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
+
+    .card {
+      background: #fff;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      text-align: center;
+      font-size: 1.05em;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    }
+
+    .about-me p { margin-bottom: 15px; font-size: 1.1em; }
+    .fun-facts { display: flex; gap: 15px; flex-wrap: wrap; margin-top: 20px; }
+    .fact { background: #ffe9f3; padding: 15px; border-radius: 12px; flex: 1; min-width: 150px; text-align: center; font-size: 1em; }
+
+    ul { padding-left: 20px; }
+    li { margin-bottom: 10px; }
+
+    footer {
+      text-align: center;
+      background: #f9f9f9;
+      padding: 40px 20px;
+      margin-top: 40px;
+      font-size: 1.1em;
+    }
+
+    footer a {
+      margin: 0 10px;
+      color: #e52e71;
+      text-decoration: none;
+      font-weight: bold;
+      transition: text-decoration 0.3s;
+    }
+
+    footer a:hover { text-decoration: underline; }
+
+    .center-btns { text-align: center; margin-top: 25px; }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 2em; }
+      section { padding: 8px; }
+      .services, .why-choose, .testimonials { grid-template-columns: 1fr; }
+      .fun-facts { flex-direction: column; }
+    }
+
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      margin-bottom: 8px;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 1em;
+    }
+
+    .contact-form label { display: block; margin-bottom: 5px; font-weight: 600; }
+    .contact-form button { width: 100%; }
+
+    #scrollTopBtn {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      z-index: 99;
+      font-size: 18px;
+      border: none;
+      outline: none;
+      background-color: #e52e71;
+      color: white;
+      cursor: pointer;
+      padding: 12px 16px;
+      border-radius: 50%;
+      display: none;
+      transition: background 0.3s, transform 0.3s;
+    }
+
+    #scrollTopBtn:hover {
+      background-color: #ff0080;
+      transform: translateY(-3px);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="234a6b35-1605-4790-9432-9f9deed9bb56.jpg" alt="Portrait of Teacher Shan, English Instructor" loading="lazy">
+  <h1>✨ Learn English with Teacher Shan ✨</h1>
+  <p>Professional teacher. Book lover. Fun mentor. Let’s make English simple, natural & exciting for YOU!</p>
+  <div class="center-btns">
+    <a href="mailto:shannendorothysantos@gmail.com?subject=Book%20a%20Lesson%20with%20Teacher%20Shan" class="btn">🚀 Book a Lesson</a>
+    <a href="https://drive.google.com/file/d/1zT2K7XbU_NEZq56B-AVC-PkpbZuOz6ns/view?usp=drivesdk" target="_blank" class="btn">🎥 Watch Intro Video</a>
+    <a href="https://drive.google.com/file/d/1zSfbmYq0sEB9s6ilBW4CQNkFW3vANT0k/view?usp=drivesdk" target="_blank" class="btn">📄 View Resume</a>
+  </div>
+</header>
+
+<section class="about-me">
+  <h2>Meet Teacher Shan 💖</h2>
+  <p>Hi, I’m <strong>Shannen Dorothy T. Santos</strong>—but call me <strong>Teacher Shan</strong>! I’m a <strong>Licensed Professional Teacher</strong>, <strong>TEFL-Certified</strong>, holder of <strong>TESDA’s Contact Center Services NCII</strong>, and an <strong>ALS Training Certificate</strong>. I’ve taught <em>kids, teens, college students, adults, and even foreign learners</em>—so I know how to adjust and keep lessons engaging for everyone. 🌍</p>
+  <p>I graduated <em>Magna Cum Laude</em>, consistently landed on the Dean’s List, and proudly ranked <strong>Top 2</strong> of my entire graduating batch. I was nominated for <strong>Best in Research</strong> at our 2023 Research Colloquium and shared my passion as a <strong>speaker</strong> in our college’s English Month podcast. Teaching is my calling—but learning is too. Right now, I’m exploring <strong>bookkeeping</strong> because words & numbers are both powerful. 📊</p>
+  <div class="fun-facts">
+    <div class="fact">📚 Certified bookworm: from classics to modern lit, I devour stories like snacks.</div>
+    <div class="fact">🌱 Lifelong learner: always adding new skills (even outside teaching!).</div>
+    <div class="fact">🤝 Youth leader & barangay volunteer teacher—giving back fuels me.</div>
+    <div class="fact">🎮 Gamer at heart (Roblox, ML, COD) — yes, I can bond with students beyond lessons.</div>
+  </div>
+</section>
+
+<section>
+  <h2>What I Offer 🚀</h2>
+  <div class="services">
+    <div class="card">📚 Conversational English (Beginner to Advanced)</div>
+    <div class="card">✍️ Writing & Grammar Coaching</div>
+    <div class="card">🎤 Pronunciation & Accent Training</div>
+    <div class="card">💼 English for Work, Interviews & Presentations</div>
+    <div class="card">🧒 English for Kids & Teens (fun, engaging lessons)</div>
+    <div class="card">🌏 ESL for Foreign Learners</div>
+    <div class="card">📑 Grammarian for Research Papers</div>
+    <div class="card">🎓 English Major Mentor / Specialist</div>
+  </div>
+</section>
+
+<section>
+  <h2>Testimonials 🗣️</h2>
+  <div class="testimonials">
+    <div class="card">"Teacher Shan makes English easy and fun!" – Maria, Student ⭐⭐⭐⭐⭐</div>
+    <div class="card">"I improved my speaking in just weeks." – John, Professional ⭐⭐⭐⭐⭐</div>
+    <div class="card">"Engaging lessons and real-life examples. Highly recommend!" – Ana, College Student ⭐⭐⭐⭐⭐</div>
+  </div>
+</section>
+
+<!-- Contact Form -->
+<section>
+  <h2>Contact Me ✉️</h2>
+  <form class="contact-form" id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <label for="name">Your Name</label>
+    <input id="name" type="text" name="Name" placeholder="Your Name" required>
+
+    <label for="email">Your Email</label>
+    <input id="email" type="email" name="Email" placeholder="Your Email" required>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="Message" placeholder="Your Message" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <p id="formFeedback" style="margin-top:10px; font-weight:bold;"></p>
+  </form>
+</section>
+
+<!-- Footer -->
+<footer>
+  <h2>Let’s Connect 📲</h2>
+  <p>Email: <a href="mailto:shannendorothysantos@gmail.com">shannendorothysantos@gmail.com</a></p>
+  <p>Phone: <a href="tel:09979179056">0997 917 9056</a></p>
+  <p>
+    WeChat: <strong>wxid_0ss94zl8hwkq22</strong> <br>
+    <img src="wechat-qr.png" alt="Scan WeChat QR Code to connect" width="120" style="margin-top:10px;" loading="lazy">
+  </p>
+  <p>
+    <a href="https://m.me/shann.yauder?hash=AbZpuT2SzDzz1rAW&source=qr_link_share" target="_blank">Messenger</a> |
+    <a href="https://wa.me/639979179056" target="_blank">WhatsApp</a> |
+    <a href="https://instagram.com/YOUR_HANDLE" target="_blank">Instagram</a>
+  </p>
+  <p>&copy; <span id="year"></span> Teacher Shan. All rights reserved.</p>
+</footer>
+
+<!-- Scroll-to-top button -->
+<button onclick="scrollToTop()" id="scrollTopBtn" aria-label="Scroll to top">⬆️</button>
+
+<script>
+  // Scroll-to-top button
+  const scrollBtn = document.getElementById("scrollTopBtn");
+  window.onscroll = function() {
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+      scrollBtn.style.display = "block";
+    } else {
+      scrollBtn.style.display = "none";
+    }
+  };
+  function scrollToTop() {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  }
+
+  // Auto year
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // AJAX contact form feedback
+  document.getElementById('contactForm').addEventListener('submit', async function(e){
+    e.preventDefault();
+    const form = e.target;
+    const data = new FormData(form);
+    const feedback = document.getElementById('formFeedback');
+    feedback.innerText = "⏳ Sending...";
+    const response = await fetch(form.action, {
+      method: form.method,
+      body: data,
+      headers: { 'Accept': 'application/json' }
+    });
+    if (response.ok) {
+      feedback.innerText = "✅ Thank you! Your message has been sent.";
+      feedback.style.color = "green";
+      form.reset();
+    } else {
+      feedback.innerText = "❌ Oops, something went wrong. Please try again.";
+      feedback.style.color = "red";
+    }
+  });
+</script>
+
+</body>
+</html>
